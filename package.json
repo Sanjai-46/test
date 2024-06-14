@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "fcm-notification": "^2.0.0",
+    "firebase-admin": "^12.1.1"
+  }
+}
