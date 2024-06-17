@@ -3,6 +3,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fcm-notification": "^2.0.0",
-    "firebase-admin": "^12.1.1"
+    "firebase-admin": "^12.1.1",
+    "protobufjs": "^7.3.2",
+    "zcatalyst-sdk-node": "^2.5.1"
   }
 }

@@ -1,0 +1,72 @@
+[debug] [2024-06-17T08:43:45.845Z] : 
+[debug] [2024-06-17T08:43:45.846Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T08:43:45.846Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-17T08:43:45.846Z] : CLI Version:  1.17.5
+[debug] [2024-06-17T08:43:45.847Z] : Platform:     win32
+[debug] [2024-06-17T08:43:45.847Z] : Node Version: v16.15.0
+[debug] [2024-06-17T08:43:45.848Z] : Time:         Mon Jun 17 2024 14:13:45 GMT+0530 (India Standard Time)
+[debug] [2024-06-17T08:43:45.849Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T08:43:45.849Z] : 
+[debug] [2024-06-17T08:43:46.559Z] : > authorizing via signed-in user option
+[debug] [2024-06-17T08:43:46.559Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-17T08:43:46.571Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4466000000006074 
+
+[debug] [2024-06-17T08:43:46.754Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 08:43:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=39d015cd-65d9-4557-99f5-33d974a97171;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=39d015cd-65d9-4557-99f5-33d974a97171;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T08:43:46.757Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4466000000006074/environment 
+
+[debug] [2024-06-17T08:43:46.899Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 08:43:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=41454d51-0db0-4af5-8f6e-06c6d4d6a17d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=41454d51-0db0-4af5-8f6e-06c6d4d6a17d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T08:45:56.568Z] : [Error: EMFILE: too many open files, open 'C:\Users\Admin\Desktop\test\node_modules\fcm-notification\node_modules\protobufjs\cli\node_modules\jsdoc\lib\jsdoc\schema.js'] {
+  errno: -4066,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: 'C:\\Users\\Admin\\Desktop\\test\\node_modules\\fcm-notification\\node_modules\\protobufjs\\cli\\node_modules\\jsdoc\\lib\\jsdoc\\schema.js'
+}
+[warn] [2024-06-17T08:45:56.569Z] : ‼ Deploy of AppSail [AppSail] was unsuccessful since EMFILE: too many open files, open 'C:\Users\Admin\Desktop\test\node_modules\fcm-notification\node_modules\protobufjs\cli\node_modules\jsdoc\lib\jsdoc\schema.js'
+[info] [2024-06-17T08:45:56.570Z] : 
+[error] [2024-06-17T08:45:56.570Z] : × appsail: deploy skipped
+[info] [2024-06-17T08:45:56.571Z] : 
+[error] [2024-06-17T08:45:56.571Z] : × No components deployed!
+[debug] [2024-06-17T08:45:56.571Z] : NO ERRORS REGISTERED
+[debug] [2024-06-17T08:45:56.571Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-17T08:45:56.571Z] : TOTAL DURATION OF COMMAND EXEC : 130026
+[debug] [2024-06-17T08:45:56.572Z] : Unable to send debug log to server: EMFILE: too many open files, open 'C:\Users\Admin\AppData\Roaming\zcatalyst-cli-nodejs\Config\zcatalyst-cli.json'
+[debug] [2024-06-17T08:47:12.613Z] : 
+[debug] [2024-06-17T08:47:12.614Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T08:47:12.614Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-17T08:47:12.614Z] : CLI Version:  1.17.5
+[debug] [2024-06-17T08:47:12.615Z] : Platform:     win32
+[debug] [2024-06-17T08:47:12.615Z] : Node Version: v16.15.0
+[debug] [2024-06-17T08:47:12.616Z] : Time:         Mon Jun 17 2024 14:17:12 GMT+0530 (India Standard Time)
+[debug] [2024-06-17T08:47:12.616Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T08:47:12.617Z] : 
+[debug] [2024-06-17T08:47:13.309Z] : > authorizing via signed-in user option
+[debug] [2024-06-17T08:47:13.310Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-17T08:47:13.321Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4466000000006074 
+
+[debug] [2024-06-17T08:47:13.483Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 08:47:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=fbe51f98-383b-45e9-ab41-8c779de58835;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fbe51f98-383b-45e9-ab41-8c779de58835;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T08:47:13.487Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4466000000006074/environment 
+
+[debug] [2024-06-17T08:47:13.614Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 08:47:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=53c9858d-8a3b-4eae-b357-79aaf6c422c0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=53c9858d-8a3b-4eae-b357-79aaf6c422c0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T08:48:40.975Z] : [Error: EMFILE: too many open files, open 'C:\Users\Admin\Desktop\test\node_modules\fcm-notification\node_modules\protobufjs\cli\node_modules\jsdoc\lib\jsdoc\augment.js'] {
+  errno: -4066,
+  code: 'EMFILE',
+  syscall: 'open',
+  path: 'C:\\Users\\Admin\\Desktop\\test\\node_modules\\fcm-notification\\node_modules\\protobufjs\\cli\\node_modules\\jsdoc\\lib\\jsdoc\\augment.js'
+}
+[warn] [2024-06-17T08:48:40.976Z] : ‼ Deploy of AppSail [AppSail] was unsuccessful since EMFILE: too many open files, open 'C:\Users\Admin\Desktop\test\node_modules\fcm-notification\node_modules\protobufjs\cli\node_modules\jsdoc\lib\jsdoc\augment.js'
+[info] [2024-06-17T08:48:40.977Z] : 
+[error] [2024-06-17T08:48:40.977Z] : × appsail: deploy skipped
+[info] [2024-06-17T08:48:40.977Z] : 
+[error] [2024-06-17T08:48:40.978Z] : × No components deployed!
+[debug] [2024-06-17T08:48:40.978Z] : NO ERRORS REGISTERED
+[debug] [2024-06-17T08:48:40.978Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-17T08:48:40.978Z] : TOTAL DURATION OF COMMAND EXEC : 87681
+[debug] [2024-06-17T08:48:40.979Z] : Unable to send debug log to server: EMFILE: too many open files, open 'C:\Users\Admin\AppData\Roaming\zcatalyst-cli-nodejs\Config\zcatalyst-cli.json'
